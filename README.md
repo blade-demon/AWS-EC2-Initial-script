@@ -11,5 +11,7 @@ echo "deb [ arch=amd64,arm64 ] http://repo.mongodb.org/apt/ubuntu xenial/mongodb
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get update
 sudo apt-get install -y nginx mongodb-org nodejs
+sudo service mongod start
+sudo service nginx start
 
 ```
