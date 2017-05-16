@@ -1,5 +1,7 @@
 # AWS-EC2-Initial-script
 
+####
+  AWS-EC2 Web服务器启动脚本，安装nodejs mongodb nginx
 
 ```sh
 
